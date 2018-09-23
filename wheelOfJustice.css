@@ -1,0 +1,460 @@
+/* line 17, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/_base.scss */
+body {
+  background-color: #eeeeee;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+/** Common **/
+/* line 10, ../sass/_base.scss */
+a {
+  color: #e34c26;
+}
+
+/* line 11, ../sass/_base.scss */
+.hidden {
+  display: none;
+}
+
+/** Header **/
+/* line 17, ../sass/_base.scss */
+header {
+  clear: both;
+  margin: 0 auto;
+  position: relative;
+  z-index: 90;
+}
+/* line 23, ../sass/_base.scss */
+header a {
+  text-decoration: none;
+}
+
+/** Forms **/
+/* line 29, ../sass/_base.scss */
+.form-field {
+  margin: 10px 0;
+}
+/* line 32, ../sass/_base.scss */
+.form-field.first {
+  margin-top: 0;
+}
+/* line 33, ../sass/_base.scss */
+.form-field.last {
+  margin-bottom: 0;
+}
+
+/* line 36, ../sass/_base.scss */
+.required {
+  color: red;
+  padding-left: 10px;
+}
+
+/** Footer **/
+/* line 43, ../sass/_base.scss */
+footer {
+  padding: 25px 35px;
+  font-size: 85%;
+  overflow: auto;
+}
+/* line 48, ../sass/_base.scss */
+footer .html5 {
+  float: right;
+  margin-top: 25px;
+}
+/* line 53, ../sass/_base.scss */
+footer .disclaimer {
+  font-size: 80%;
+}
+/* line 55, ../sass/_base.scss */
+footer .footer-left {
+  float: left;
+  width: 465px;
+}
+
+/** Autocomplete **/
+/* line 1, ../sass/_autocomplete.scss */
+.ui-autocomplete {
+  position: absolute;
+  background: #FFF;
+  border: solid 1px #ddd;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 2px;
+  z-index: 5;
+  max-height: 450px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* line 14, ../sass/_autocomplete.scss */
+.ui-autocomplete .ui-menu-item {
+  clear: left;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* line 21, ../sass/_autocomplete.scss */
+.ui-autocomplete .ui-menu-item a {
+  display: block;
+  line-height: 1.5;
+  padding: 0.2em 0.4em;
+  text-decoration: none;
+  color: black;
+  font-family: Helvetica,Arial,sans-serif;
+  cursor: pointer;
+}
+
+/* line 33, ../sass/_autocomplete.scss */
+body.mobile .ui-autocomplete {
+  max-height: 250px;
+}
+
+/* Component containers
+----------------------------------*/
+/* line 39, ../sass/_autocomplete.scss */
+.ui-widget {
+  font-size: 1.1em;
+}
+/* line 42, ../sass/_autocomplete.scss */
+.ui-widget .ui-widget {
+  font-size: 1em;
+}
+
+/* line 44, ../sass/_autocomplete.scss */
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1em;
+}
+
+/* line 45, ../sass/_autocomplete.scss */
+.ui-widget-content {
+  border: 1px solid #ddd;
+  background-color: #eeeeee;
+  color: #333333;
+}
+
+/* line 50, ../sass/_autocomplete.scss */
+.ui-widget-content a {
+  color: #333333;
+}
+
+/* Interaction states
+----------------------------------*/
+/* line 55, ../sass/_autocomplete.scss */
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+  background-color: #fdf5ce;
+  font-weight: normal;
+  color: #c77405;
+}
+
+/* line 64, ../sass/_autocomplete.scss */
+.ui-widget :active {
+  outline: none;
+}
+
+/* line 9, ../sass/screen.scss */
+div#wrapper {
+  margin: 25px auto;
+  width: 940px;
+  background: #fff;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 17, ../sass/screen.scss */
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ff9933;
+  margin-left: 55px;
+  text-transform: uppercase;
+  padding-top: 7px;
+  float: left;
+  text-shadow: #804d1a 0 2px 3px;
+}
+
+/* line 27, ../sass/screen.scss */
+h2 {
+  font-size: 20px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+/* line 32, ../sass/screen.scss */
+h3 {
+  font-size: 14px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+/* line 38, ../sass/screen.scss */
+p {
+  padding-bottom: 7px;
+  line-height: 150%;
+}
+
+/* line 44, ../sass/screen.scss */
+ul {
+  list-style-type: disc;
+}
+/* line 47, ../sass/screen.scss */
+ul li {
+  margin: 10px 18px;
+}
+
+/* line 52, ../sass/screen.scss */
+.rectangle {
+  background: #000;
+  height: 65px;
+  width: 970px;
+  position: relative;
+  left: -15px;
+  top: 25px;
+  float: left;
+  -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
+  -khtml-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
+  z-index: 100;
+  /* the stack order: foreground */
+}
+
+/* line 77, ../sass/screen.scss */
+.triangle-l {
+  border-color: transparent #666 transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  height: 0;
+  width: 0;
+  position: relative;
+  left: -30px;
+  top: 75px;
+  z-index: -1;
+  /* displayed under */
+}
+
+/* line 82, ../sass/screen.scss */
+.triangle-r {
+  border-color: transparent transparent transparent #666;
+  border-style: solid;
+  border-width: 15px;
+  height: 0;
+  width: 0;
+  position: relative;
+  left: 940px;
+  top: 45px;
+  z-index: -1;
+  /* displayed under */
+}
+
+/* line 87, ../sass/screen.scss */
+.biglogo {
+  z-index: 105;
+  float: left;
+  position: relative;
+  top: -40px;
+  left: 35px;
+}
+
+/* line 97, ../sass/screen.scss */
+section.info {
+  padding: 0;
+  margin: 50px 0 0 175px;
+  width: 715px;
+}
+/* line 103, ../sass/screen.scss */
+section.socialmedia {
+  margin: 25px 0;
+}
+/* line 105, ../sass/screen.scss */
+section.socialmedia .share {
+  float: left;
+}
+/* line 106, ../sass/screen.scss */
+section.socialmedia .twitter {
+  margin-bottom: 5px;
+}
+/* line 107, ../sass/screen.scss */
+section.socialmedia .gplus {
+  margin-top: 5px;
+}
+/* line 111, ../sass/screen.scss */
+section.results {
+  margin: 0 0 50px 35px;
+  height: 100px;
+}
+/* line 116, ../sass/screen.scss */
+section.controls {
+  margin: 0 0 40px 0;
+}
+/* line 120, ../sass/screen.scss */
+section.presets ul li p {
+  font-size: 83%;
+}
+
+/* line 124, ../sass/screen.scss */
+.playoffs {
+  margin-bottom: 10px;
+  height: 47px;
+}
+/* line 128, ../sass/screen.scss */
+.playoffs .lbl_playoff_mode {
+  float: left;
+  line-height: 27px;
+  height: 27px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+/* line 130, ../sass/screen.scss */
+.playoffs .weber_mode {
+  display: none;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+/* line 139, ../sass/screen.scss */
+#imgWeber {
+  float: right;
+}
+
+/* line 143, ../sass/screen.scss */
+#content {
+  display: table;
+  width: 940px;
+  overflow: auto;
+}
+/* line 149, ../sass/screen.scss */
+#content .left {
+  float: left;
+  display: table-cell;
+  width: 500px;
+}
+/* line 155, ../sass/screen.scss */
+#content aside {
+  float: left;
+  display: table-cell;
+  width: 415px;
+  margin-left: 25px;
+}
+
+/** Form Fields **/
+/* line 165, ../sass/screen.scss */
+input, select {
+  font-size: 16px;
+}
+
+/* line 169, ../sass/screen.scss */
+.btn {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* line 174, ../sass/screen.scss */
+#btnReset {
+  margin-left: 25px;
+}
+
+/* line 176, ../sass/screen.scss */
+.form-input {
+  width: 300px;
+}
+
+/* line 180, ../sass/screen.scss */
+.form-select {
+  width: 220px;
+}
+
+/* line 184, ../sass/screen.scss */
+label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+/* line 191, ../sass/screen.scss */
+body.philly section.results {
+  margin: 0 40px 0 0;
+  padding: 0;
+}
+
+/* line 197, ../sass/screen.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 22, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
