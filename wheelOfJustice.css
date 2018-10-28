@@ -292,7 +292,7 @@ ul li {
 .triangle-l {
   border-color: transparent #666 transparent transparent;
   border-style: solid;
-  border-width: 15px;
+  border-width: 40px;
   height: 0;
   width: 0;
   position: relative;
